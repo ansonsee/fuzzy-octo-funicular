@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>经方实验录笔记</title>
+    <url>/2023/05/20/%E7%BB%8F%E6%96%B9%E5%AE%9E%E9%AA%8C%E5%BD%95%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<h3 id="芍药甘草汤"><a href="#芍药甘草汤" class="headerlink" title="芍药甘草汤"></a>芍药甘草汤</h3><ul>
+<li>芍药能活静脉之血，故凡青筋暴露、皮肉挛急者，用之无不效。</li>
+<li>芍药能令足部之静脉血上行，使青筋隐退、步履如旧者，此芍药甘草汤中芍药之功也。<br>患桂枝汤证者服桂枝汤后，其动脉血既畅流于外，使无芍药助之内返，岂非成表实里虚之局，<br>此桂枝汤中芍药之功也。虽有自下达上、自表返里之异，其属于静脉一也。</li>
+<li>桂枝加龙骨牡蛎汤以盗汗、失精为主；<br>炙甘草汤以心动悸为主；<br>小建中汤以腹中痛为主；<br>当归建中汤以妇人经产为主；<br>黄芪建中汤以虚劳诸不足为主，皆大补之方。</li>
+<li>抑芍药甘草汤不仅能治脚挛急，凡因跌打损伤，或睡眠姿势不正，因而腰背有筋牵强者，本汤治之同效。</li>
+</ul>
+<h3 id="桂枝汤"><a href="#桂枝汤" class="headerlink" title="桂枝汤"></a>桂枝汤</h3><ul>
+<li>仲圣则统发热、有汗、恶风、头痛等等合称曰证，是犹合桂、芍、姜、甘、枣五味为一方，而不可称独桂也、独芍也皆方也，是为证之真义。</li>
+<li>一两等于三钱，等于12克。</li>
+<li>风邪在肌肉腠理，卫闭不开，营气之行于肌腠中者，乃不能自发其汗。皮毛中自汗，故曰卫强。肌腠凝闭不能作汗，故曰营弱。脾主肌肉，故曰系在太阴。</li>
+<li>脑疽属太阳，发背属太阳合少阴。二证妄投凉药必死。血运不畅，故以桂枝汤治之。</li>
+<li><strong>桂枝汤，运转全身血液，调和阴阳。</strong>桂枝汤者功能促进血运、温和肠胃者也。</li>
+<li>服后之现象等于方药加病证之和，非方药可得而独专也。</li>
+<li>故仲圣以本汤为温补主方，加桂，即治逆气冲心；加附子，即治遂漏不止；加龙骨、牡蛎，即治盗汗失精；加白芍、饴糖，即治腹中痛；加人参、生姜、芍药，即治发汗后身疼痛；更加黄芪、当归，即泛治虚劳；去白芍加生地、麦冬、阿胶、人参、麻仁，即治脉结代、心动悸，无一非大补之方。</li>
+</ul>
+]]></content>
+      <categories>
+        <category>中医</category>
+        <category>伤寒论</category>
+      </categories>
+      <tags>
+        <tag>中医</tag>
+        <tag>伤寒论</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>文章</title>
+    <url>/2023/05/20/0023/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>文章二</title>
+    <url>/2023/05/20/oo21/</url>
+    <content><![CDATA[<p>看看这篇文昌出现在哪里？</p>
+]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/2023/05/20/hello-world/</url>
+    <content><![CDATA[<hr>
+<ul>
+<li>title: Stilnc 的博客</li>
+</ul>
+<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Hexo使用方法"><a href="#Hexo使用方法" class="headerlink" title="Hexo使用方法"></a>Hexo使用方法</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+</search>
