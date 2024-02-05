@@ -178,7 +178,6 @@
 </li>
 <li><p>预览 </p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure>
-
 </li>
 <li><p>部署到gitee平台。</p>
 <ul>
@@ -192,11 +191,11 @@
 </li>
 <li><p>生成静态文件</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure>
-
 </li>
 <li><p>部署</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo d 或者 hexo c &amp;&amp; hexo d</span><br></pre></td></tr></table></figure>
 
+<p>部署后要在gitee服务页面上更新。</p>
 </li>
 <li><p>使用主题Ayer，说明文档地址 <a href="https://shen-yu.gitee.io/2019/ayer/">https://shen-yu.gitee.io/2019/ayer/</a></p>
 </li>
@@ -206,6 +205,10 @@
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo new 文件名</span><br></pre></td></tr></table></figure></li>
 </ul>
 ]]></content>
+      <tags>
+        <tag>技术</tag>
+        <tag>攻略</tag>
+      </tags>
   </entry>
   <entry>
     <title>文章</title>
