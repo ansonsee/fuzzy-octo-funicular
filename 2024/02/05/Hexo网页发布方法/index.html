@@ -11,7 +11,7 @@
         name="viewport"
         content="width=device-width, initial-scale=1, maximum-scale=1"
       />
-      <title>文章二 |  Stilnc的博客</title>
+      <title>Hexo+gitee博客搭建 |  Stilnc的博客</title>
   <meta name="generator" content="hexo-theme-ayer">
       
       <link rel="shortcut icon" href="/favicon.ico" />
@@ -53,19 +53,210 @@
       
     <main class="content on">
       <section class="outer">
-  
-    <h1 class="page-type-title">分类</h1>
-    <div class="categories-box">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/%E4%B8%AD%E5%8C%BB/">中医</a><span class="category-list-count">1</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/%E4%B8%AD%E5%8C%BB/%E4%BC%A4%E5%AF%92%E8%AE%BA/">伤寒论</a><span class="category-list-count">1</span></li></ul></li></ul>
+  <article
+  id="post-Hexo网页发布方法"
+  class="article article-type-post"
+  itemscope
+  itemprop="blogPost"
+  data-scroll-reveal
+>
+  <div class="article-inner">
+    
+    <header class="article-header">
+       
+<h1 class="article-title sea-center" style="border-left:0" itemprop="name">
+  Hexo+gitee博客搭建
+</h1>
+ 
+
+      
+    </header>
+     
+    <div class="article-meta">
+      <a href="/2024/02/05/Hexo%E7%BD%91%E9%A1%B5%E5%8F%91%E5%B8%83%E6%96%B9%E6%B3%95/" class="article-date">
+  <time datetime="2024-02-05T12:45:10.000Z" itemprop="datePublished">2024-02-05</time>
+</a>   
+<div class="word_count">
+    <span class="post-time">
+        <span class="post-meta-item-icon">
+            <i class="ri-quill-pen-line"></i>
+            <span class="post-meta-item-text"> 字数统计:</span>
+            <span class="post-count">179</span>
+        </span>
+    </span>
+
+    <span class="post-time">
+        &nbsp; | &nbsp;
+        <span class="post-meta-item-icon">
+            <i class="ri-book-open-line"></i>
+            <span class="post-meta-item-text"> 阅读时长≈</span>
+            <span class="post-count">1 分钟</span>
+        </span>
+    </span>
+</div>
+ 
     </div>
+      
+    <div class="tocbot"></div>
+
+
+
+
   
+    <div class="article-entry" itemprop="articleBody">
+       
+  <h1 id="Hexo博客框架-gitee网站发布"><a href="#Hexo博客框架-gitee网站发布" class="headerlink" title="Hexo博客框架+gitee网站发布"></a>Hexo博客框架+gitee网站发布</h1><ul>
+<li><p>安装依赖环境nodejs，git。</p>
+</li>
+<li><p>安装hexo, hexo 主页 <a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/">https://hexo.io/zh-cn/</a></p>
+<ul>
+<li><pre><code>  npm config set registry http://registry.npm.taobao.org
+  <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">- ```</span><br><span class="line">  npm install hexo -cli -g</span><br></pre></td></tr></table></figure>
+</code></pre>
+</li>
+</ul>
+</li>
+<li><p>生成博客文件：在文件夹下输入cmd，运行 <code>hexo init</code></p>
+</li>
+<li><p>预览 </p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure>
+
+</li>
+<li><p>部署到gitee平台。</p>
+<ul>
+<li><p>修改_config.xml文件。</p>
+  <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">deploy</span>:</span><br><span class="line"> # <span class="attr">type</span>: git</span><br><span class="line"> # <span class="attr">repo</span>: <span class="attr">https</span>:<span class="comment">//github.com/ansonsee/stilnc</span></span><br><span class="line"> # <span class="attr">branch</span>: main</span><br><span class="line">  </span><br><span class="line">  <span class="attr">type</span>: git</span><br><span class="line">  <span class="attr">repo</span>: <span class="attr">https</span>:<span class="comment">//gitee.com/stilnc/stilnc.git</span></span><br><span class="line">  <span class="attr">branch</span>: master</span><br></pre></td></tr></table></figure>
+<ul>
+<li>安装一键部署工具 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>生成静态文件</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure>
+
+</li>
+<li><p>部署</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure>
+
+</li>
+<li><p>使用主题Ayer，说明文档地址 <a target="_blank" rel="noopener" href="https://shen-yu.gitee.io/2019/ayer/">https://shen-yu.gitee.io/2019/ayer/</a></p>
+</li>
+<li><p>需要说明的是插入图片的路径为 <code>[/文件夹/图片名，名字]</code> 方式。</p>
+</li>
+<li><p>创建新的文章</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new 文件名</span><br></pre></td></tr></table></figure></li>
+</ul>
+ 
+      <!-- reward -->
+      
+      <div id="reword-out">
+        <div id="reward-btn">
+          打赏
+        </div>
+      </div>
+      
+    </div>
+    
+
+    <!-- copyright -->
+    
+    <div class="declare">
+      <ul class="post-copyright">
+        <li>
+          <i class="ri-copyright-line"></i>
+          <strong>版权声明： </strong>
+          
+          本博客所有文章除特别声明外，著作权归作者所有。转载请注明出处！
+          
+        </li>
+      </ul>
+    </div>
+    
+    <footer class="article-footer">
+       
+<div class="share-btn">
+      <span class="share-sns share-outer">
+        <i class="ri-share-forward-line"></i>
+        分享
+      </span>
+      <div class="share-wrap">
+        <i class="arrow"></i>
+        <div class="share-icons">
+          
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="ri-weibo-fill"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="ri-wechat-fill"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="ri-qq-fill"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="ri-douban-line"></i>
+          </a>
+          <!-- <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a> -->
+          
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="ri-facebook-circle-fill"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="ri-twitter-fill"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="ri-google-fill"></i>
+          </a>
+        </div>
+      </div>
+</div>
+
+<div class="wx-share-modal">
+    <a class="modal-close" href="javascript:;"><i class="ri-close-circle-line"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://stilnc.gitee.io/2024/02/05/Hexo%E7%BD%91%E9%A1%B5%E5%8F%91%E5%B8%83%E6%96%B9%E6%B3%95/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div id="share-mask"></div>  
+    </footer>
+  </div>
+
+   
+  <nav class="article-nav">
+    
+    
+      <a href="/2023/05/20/0023/" class="article-nav-link">
+        <strong class="article-nav-caption">下一篇</strong>
+        <div class="article-nav-title">文章</div>
+      </a>
+    
+  </nav>
+
+  
+   
+  
+   
+    <script src="https://cdn.staticfile.org/twikoo/1.4.18/twikoo.all.min.js"></script>
+    <div id="twikoo" class="twikoo"></div>
+    <script>
+        twikoo.init({
+            envId: ""
+        })
+    </script>
+ 
+</article>
+
 </section>
       <footer class="footer">
   <div class="outer">
     <ul>
       <li>
         Copyrights &copy;
-        2015-2023
+        2015-2024
         <i class="ri-heart-fill heart_icon"></i> Stilnc
       </li>
     </ul>
@@ -137,6 +328,10 @@
     
     <li class="nav-item">
       <a class="nav-item-link" href="/tags">标签</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/photos">相册</a>
     </li>
     
     <li class="nav-item">

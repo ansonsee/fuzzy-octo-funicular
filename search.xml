@@ -118,11 +118,37 @@
 <li>此方不惟治遗精，并能治盗汗。</li>
 </ul>
 <h3 id="炙甘草汤"><a href="#炙甘草汤" class="headerlink" title="炙甘草汤"></a>炙甘草汤</h3><ul>
-<li>心动悸，脉结代，炙甘草汤主之”</li>
-<li>阳气结涩不舒，故谓之结；阴气缺乏不续，故谓之代。</li>
-<li>阴亏加人参而去芍药，腹痛加芍药而去黄芩．</li>
-<li>推其所以心动悸之理，血液不足故也，故其脉必细小异常。妇女患此证之甚者，且常影响及于经事。动悸剧时，左心房处怦怦自跃，不能自已。胆气必较平时为虚，不胜意外之惊恐，亦不堪受重厉之叫呼。夜中或不能成寐，于是虚汗以出，此所谓阴虚不能敛阳是也。</li>
-<li>炙甘草汤养阴血也。</li>
+<li><p>心动悸，脉结代，炙甘草汤主之”</p>
+</li>
+<li><p>阳气结涩不舒，故谓之结；阴气缺乏不续，故谓之代。</p>
+</li>
+<li><p>阴亏加人参而去芍药，腹痛加芍药而去黄芩．</p>
+</li>
+<li><p>推其所以心动悸之理，血液不足故也，故其脉必细小异常。妇女患此证之甚者，且常影响及于经事。动悸剧时，左心房处怦怦自跃，不能自已。胆气必较平时为虚，不胜意外之惊恐，亦不堪受重厉之叫呼。夜中或不能成寐，于是虚汗以出，此所谓阴虚不能敛阳是也。</p>
+</li>
+<li><p>炙甘草汤养阴血也。</p>
+<p>盖本方有七分阴药，三分阳药，阴药为体，阳药为用。生地至少当用六钱，桂枝至少亦须钱半，方有效力。</p>
+</li>
+</ul>
+<h3 id="小建中汤"><a href="#小建中汤" class="headerlink" title="小建中汤"></a>小建中汤</h3><ul>
+<li>大论曰：“伤寒二三日，心中悸而烦者，小建中汤主之。”又曰：“伤寒，阳脉涩，阴脉弦，法当腹中急痛，先与小建中汤。”《要略》曰：“虚劳，里急，悸，衄，腹中痛，梦失精，四肢酸疼，手足烦热，咽干，口燥，小建中汤主之。”</li>
+<li>大论云“伤寒，阳脉涩，阴脉弦，法当腹中急痛，先与小建中汤，若不差者，小柴胡汤主之。”</li>
+</ul>
+<h3 id="当归建中汤"><a href="#当归建中汤" class="headerlink" title="当归建中汤"></a>当归建中汤</h3><ul>
+<li>血亏也，宜当归建中汤，即桂枝汤加味也。</li>
+</ul>
+<h3 id="黄芪建中汤"><a href="#黄芪建中汤" class="headerlink" title="黄芪建中汤"></a>黄芪建中汤</h3><ul>
+<li>若发热盗汗、失精梦交，则有二加龙牡汤及桂枝加龙牡汤，失眠则有酸枣仁汤，腰痛有肾气丸，补虚有黄芪建中汤，此皆仲圣治虚劳之正法，俱载《金匮·虚劳篇》中。</li>
+</ul>
+<h3 id="芍药甘草汤-1"><a href="#芍药甘草汤-1" class="headerlink" title="芍药甘草汤"></a>芍药甘草汤</h3><ul>
+<li>芍药能活静脉之血，故凡青筋暴露、皮肉挛急者，用之无不效。</li>
+<li>芍药能令足部之静脉血上行，使青筋隐退、步履如旧者，此芍药甘草汤中芍药之功也。患桂枝汤证者服桂枝汤后，其动脉血既畅流于外，使无芍药助之内返，岂非成表实里虚之局，此桂枝汤中芍药之功也。虽有自下达上、自表返里之异，其属于静脉一也。</li>
+<li>抑芍药甘草汤不仅能治脚挛急，凡因跌打损伤，或睡眠姿势不正，因而腰背有筋牵强者，本汤治之同效。</li>
+<li>桂枝加龙骨牡蛎汤以盗汗、失精为主；炙甘草汤以心动悸为主；小建中汤以腹中痛为主；当归建中汤以妇人经产为主；黄芪建中汤以虚劳诸不足为主，皆大补之方。</li>
+</ul>
+<h3 id="大陷胸汤"><a href="#大陷胸汤" class="headerlink" title="大陷胸汤"></a>大陷胸汤</h3><ul>
+<li>制甘遂一钱五分 大黄三钱 芒硝二钱</li>
+<li>嗣后余屡用此方治愈胸膈有湿痰、肠胃有热结之证，上下双解，辄收奇效。语云：胆欲大而心欲小，于是益信古人之不予欺也！</li>
 </ul>
 ]]></content>
       <categories>
@@ -135,14 +161,56 @@
       </tags>
   </entry>
   <entry>
-    <title>文章</title>
-    <url>/2023/05/20/0023/</url>
-    <content><![CDATA[]]></content>
+    <title>Hexo+gitee博客搭建</title>
+    <url>/2024/02/05/Hexo%E7%BD%91%E9%A1%B5%E5%8F%91%E5%B8%83%E6%96%B9%E6%B3%95/</url>
+    <content><![CDATA[<h1 id="Hexo博客框架-gitee网站发布"><a href="#Hexo博客框架-gitee网站发布" class="headerlink" title="Hexo博客框架+gitee网站发布"></a>Hexo博客框架+gitee网站发布</h1><ul>
+<li><p>安装依赖环境nodejs，git。</p>
+</li>
+<li><p>安装hexo, hexo 主页 <a href="https://hexo.io/zh-cn/">https://hexo.io/zh-cn/</a></p>
+<ul>
+<li><pre><code>  npm config set registry http://registry.npm.taobao.org
+  <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">- ```</span><br><span class="line">  npm install hexo -cli -g</span><br></pre></td></tr></table></figure>
+</code></pre>
+</li>
+</ul>
+</li>
+<li><p>生成博客文件：在文件夹下输入cmd，运行 <code>hexo init</code></p>
+</li>
+<li><p>预览 </p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure>
+
+</li>
+<li><p>部署到gitee平台。</p>
+<ul>
+<li><p>修改_config.xml文件。</p>
+  <figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="attr">deploy</span>:</span><br><span class="line"> # <span class="attr">type</span>: git</span><br><span class="line"> # <span class="attr">repo</span>: <span class="attr">https</span>:<span class="comment">//github.com/ansonsee/stilnc</span></span><br><span class="line"> # <span class="attr">branch</span>: main</span><br><span class="line">  </span><br><span class="line">  <span class="attr">type</span>: git</span><br><span class="line">  <span class="attr">repo</span>: <span class="attr">https</span>:<span class="comment">//gitee.com/stilnc/stilnc.git</span></span><br><span class="line">  <span class="attr">branch</span>: master</span><br></pre></td></tr></table></figure>
+<ul>
+<li>安装一键部署工具 <figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>生成静态文件</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure>
+
+</li>
+<li><p>部署</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure>
+
+</li>
+<li><p>使用主题Ayer，说明文档地址 <a href="https://shen-yu.gitee.io/2019/ayer/">https://shen-yu.gitee.io/2019/ayer/</a></p>
+</li>
+<li><p>需要说明的是插入图片的路径为 <code>[/文件夹/图片名，名字]</code> 方式。</p>
+</li>
+<li><p>创建新的文章</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo new 文件名</span><br></pre></td></tr></table></figure></li>
+</ul>
+]]></content>
   </entry>
   <entry>
-    <title>文章二</title>
-    <url>/2023/05/20/oo21/</url>
-    <content><![CDATA[<p>看看这篇文昌出现在哪里？</p>
+    <title>文章</title>
+    <url>/2023/05/20/0023/</url>
+    <content><![CDATA[<p>新文章</p>
 ]]></content>
   </entry>
   <entry>
