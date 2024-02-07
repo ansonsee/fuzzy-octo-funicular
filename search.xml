@@ -1,144 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>文章</title>
-    <url>/2023/05/20/0023/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>新文章</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>Hexo+gitee博客搭建</title>
-    <url>/2024/02/05/Hexo%E7%BD%91%E9%A1%B5%E5%8F%91%E5%B8%83%E6%96%B9%E6%B3%95/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="Hexo博客框架-gitee网站发布"><a href="#Hexo博客框架-gitee网站发布" class="headerlink" title="Hexo博客框架+gitee网站发布"></a>Hexo博客框架+gitee网站发布</h1><ul>
-<li><p>安装依赖环境nodejs，git。</p>
-</li>
-<li><p>安装hexo, hexo 主页 <a href="https://hexo.io/zh-cn/">https://hexo.io/zh-cn/</a></p>
-<ul>
-<li><pre><code>  npm config set registry http://registry.npm.taobao.org
-  <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">- ```</span><br><span class="line">  npm install hexo -cli -g</span><br></pre></td></tr></table></figure>
-</code></pre>
-</li>
-</ul>
-</li>
-<li><p>生成博客文件：在文件夹下输入cmd，运行 <code>hexo init</code></p>
-</li>
-<li><p>预览 </p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>部署到gitee平台。</p>
-<ul>
-<li><p>修改_config.xml文件。</p>
-  <figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="attr">deploy</span>:</span><br><span class="line"> # <span class="attr">type</span>: git</span><br><span class="line"> # <span class="attr">repo</span>: <span class="attr">https</span>:<span class="comment">//github.com/ansonsee/stilnc</span></span><br><span class="line"> # <span class="attr">branch</span>: main</span><br><span class="line">  </span><br><span class="line">  <span class="attr">type</span>: git</span><br><span class="line">  <span class="attr">repo</span>: <span class="attr">https</span>:<span class="comment">//gitee.com/stilnc/stilnc.git</span></span><br><span class="line">  <span class="attr">branch</span>: master</span><br></pre></td></tr></table></figure>
-<ul>
-<li>安装一键部署工具 <figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p>生成静态文件</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>部署</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo d 或者 hexo c &amp;&amp; hexo d</span><br></pre></td></tr></table></figure>
-
-<p>部署后要在gitee服务页面上更新。</p>
-</li>
-<li><p>使用主题Ayer，说明文档地址 <a href="https://shen-yu.gitee.io/2019/ayer/">https://shen-yu.gitee.io/2019/ayer/</a></p>
-</li>
-<li><p>需要说明的是插入图片的路径为 <code>[/文件夹/图片名，名字]</code> 方式。</p>
-</li>
-<li><p>创建新的文章</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo new 文件名</span><br></pre></td></tr></table></figure></li>
-</ul>
-]]></content>
-      <tags>
-        <tag>技术</tag>
-        <tag>攻略</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Makedown 语法</title>
-    <url>/2024/02/06/MAKEDOWN%20%E5%B8%B8%E7%94%A8%E7%AC%A6%E5%8F%B7/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="MAKEDOWN-语法"><a href="#MAKEDOWN-语法" class="headerlink" title="MAKEDOWN 语法"></a>MAKEDOWN 语法</h1><ol>
-<li><p>“#”  空格 </p>
-</li>
-<li><p>“&gt;”竖线引用</p>
-</li>
-<li><p>ENTER ,shift+enter 换行</p>
-</li>
-<li><p>Tab换行</p>
-</li>
-<li><p>代码栏 “~~~”</p>
-</li>
-<li><p>“*或者~”中间写文字，一个斜体，二个粗体，三个粗斜。</p>
-</li>
-<li><p>—文字—，在文件开头插入属性。</p>
-</li>
-<li><p>“***或者—”分割线</p>
-</li>
-<li><p>“<code>文字</code>“代码引用</p>
-</li>
-<li><p>常用的都可以右键查看。</p>
-</li>
-<li><p>“- [ ]” 选单</p>
-</li>
-<li><p>“****”加粗</p>
-</li>
-<li><p>双 enter 返回上级</p>
-</li>
-<li><p>shift+enter 同级</p>
-</li>
-<li><p>Tab缩进，shift+Tab回退缩进。</p>
-</li>
-</ol>
-]]></content>
-      <categories>
-        <category>技术</category>
-        <category>软件</category>
-      </categories>
-      <tags>
-        <tag>写作</tag>
-        <tag>软件</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hexo使用方法</title>
-    <url>/2023/05/20/hello-world/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><hr>
-<ul>
-<li>title: Stilnc 的博客</li>
-</ul>
-<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Hexo使用方法"><a href="#Hexo使用方法" class="headerlink" title="Hexo使用方法"></a>Hexo使用方法</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>更新<br>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>待定笔记</title>
-    <url>/2024/02/05/%E5%BE%85%E5%AE%9A%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="天下无敌"><a href="#天下无敌" class="headerlink" title="天下无敌"></a>天下无敌</h1><p>笔记太快了说的是也爱</p>
-]]></content>
-      <tags>
-        <tag>技术</tag>
-        <tag>攻略</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title></title>
-    <url>/2024/02/06/%E6%B5%8B%E8%AF%95/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>这篇文章又标题吗</p>
-]]></content>
-  </entry>
-  <entry>
     <title>经方实验录笔记</title>
     <url>/2023/05/20/%E7%BB%8F%E6%96%B9%E5%AE%9E%E9%AA%8C%E5%BD%95%E7%AC%94%E8%AE%B0/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h3 id="芍药甘草汤"><a href="#芍药甘草汤" class="headerlink" title="芍药甘草汤"></a>芍药甘草汤</h3><ul>
@@ -296,6 +158,117 @@
       <tags>
         <tag>中医</tag>
         <tag>伤寒论</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Makedown 语法</title>
+    <url>/2024/02/06/MAKEDOWN%20%E5%B8%B8%E7%94%A8%E7%AC%A6%E5%8F%B7/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="MAKEDOWN-语法"><a href="#MAKEDOWN-语法" class="headerlink" title="MAKEDOWN 语法"></a>MAKEDOWN 语法</h1><ol>
+<li><p>“#”  空格 </p>
+</li>
+<li><p>“&gt;”竖线引用</p>
+</li>
+<li><p>ENTER ,shift+enter 换行</p>
+</li>
+<li><p>Tab换行</p>
+</li>
+<li><p>代码栏 “~~~”</p>
+</li>
+<li><p>“*或者~”中间写文字，一个斜体，二个粗体，三个粗斜。</p>
+</li>
+<li><p>—文字—，在文件开头插入属性。</p>
+</li>
+<li><p>“***或者—”分割线</p>
+</li>
+<li><p>“<code>文字</code>“代码引用</p>
+</li>
+<li><p>常用的都可以右键查看。</p>
+</li>
+<li><p>“- [ ]” 选单</p>
+</li>
+<li><p>“****”加粗</p>
+</li>
+<li><p>双 enter 返回上级</p>
+</li>
+<li><p>shift+enter 同级</p>
+</li>
+<li><p>Tab缩进，shift+Tab回退缩进。</p>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>技术</category>
+        <category>软件</category>
+      </categories>
+      <tags>
+        <tag>写作</tag>
+        <tag>软件</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/2024/02/06/%E6%B5%8B%E8%AF%95/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>这篇文章又标题吗</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>待定笔记</title>
+    <url>/2024/02/05/%E5%BE%85%E5%AE%9A%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="天下无敌"><a href="#天下无敌" class="headerlink" title="天下无敌"></a>天下无敌</h1><p>笔记太快了说的是也爱</p>
+]]></content>
+      <tags>
+        <tag>技术</tag>
+        <tag>攻略</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo+gitee博客搭建</title>
+    <url>/2024/02/05/Hexo%E7%BD%91%E9%A1%B5%E5%8F%91%E5%B8%83%E6%96%B9%E6%B3%95/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="Hexo博客框架-gitee网站发布"><a href="#Hexo博客框架-gitee网站发布" class="headerlink" title="Hexo博客框架+gitee网站发布"></a>Hexo博客框架+gitee网站发布</h1><ul>
+<li><p>安装依赖环境nodejs，git。</p>
+</li>
+<li><p>安装hexo, hexo 主页 <a href="https://hexo.io/zh-cn/">https://hexo.io/zh-cn/</a></p>
+<ul>
+<li><pre><code>  npm config set registry http://registry.npm.taobao.org
+  <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">- ```</span><br><span class="line">  npm install hexo -cli -g</span><br></pre></td></tr></table></figure>
+</code></pre>
+</li>
+</ul>
+</li>
+<li><p>生成博客文件：在文件夹下输入cmd，运行 <code>hexo init</code></p>
+</li>
+<li><p>预览 </p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>部署到gitee平台。</p>
+<ul>
+<li><p>修改_config.xml文件。</p>
+  <figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="attr">deploy</span>:</span><br><span class="line"> # <span class="attr">type</span>: git</span><br><span class="line"> # <span class="attr">repo</span>: <span class="attr">https</span>:<span class="comment">//github.com/ansonsee/stilnc</span></span><br><span class="line"> # <span class="attr">branch</span>: main</span><br><span class="line">  </span><br><span class="line">  <span class="attr">type</span>: git</span><br><span class="line">  <span class="attr">repo</span>: <span class="attr">https</span>:<span class="comment">//gitee.com/stilnc/stilnc.git</span></span><br><span class="line">  <span class="attr">branch</span>: master</span><br></pre></td></tr></table></figure>
+<ul>
+<li>安装一键部署工具 <figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>生成静态文件</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>部署</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo d 或者 hexo c &amp;&amp; hexo d</span><br></pre></td></tr></table></figure>
+
+<p>部署后要在gitee服务页面上更新。</p>
+</li>
+<li><p>使用主题Ayer，说明文档地址 <a href="https://shen-yu.gitee.io/2019/ayer/">https://shen-yu.gitee.io/2019/ayer/</a></p>
+</li>
+<li><p>需要说明的是插入图片的路径为 <code>[/文件夹/图片名，名字]</code> 方式。</p>
+</li>
+<li><p>创建新的文章</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo new 文件名</span><br></pre></td></tr></table></figure></li>
+</ul>
+]]></content>
+      <tags>
+        <tag>技术</tag>
+        <tag>攻略</tag>
       </tags>
   </entry>
   <entry>
@@ -944,5 +917,32 @@
         <tag>中医</tag>
         <tag>伤寒</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>文章</title>
+    <url>/2023/05/20/0023/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>新文章</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Hexo使用方法</title>
+    <url>/2023/05/20/hello-world/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><hr>
+<ul>
+<li>title: Stilnc 的博客</li>
+</ul>
+<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Hexo使用方法"><a href="#Hexo使用方法" class="headerlink" title="Hexo使用方法"></a>Hexo使用方法</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>更新<br>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
   </entry>
 </search>
