@@ -11,7 +11,7 @@
         name="viewport"
         content="width=device-width, initial-scale=1, maximum-scale=1"
       />
-      <title>Hexo+gitee博客搭建 |  Stilnc的博客</title>
+      <title>Hexo+github博客搭建 |  Stilnc的博客</title>
   <meta name="generator" content="hexo-theme-ayer">
       
       <link rel="shortcut icon" href="/favicon.ico" />
@@ -65,7 +65,7 @@
     <header class="article-header">
        
 <h1 class="article-title sea-center" style="border-left:0" itemprop="name">
-  Hexo+gitee博客搭建
+  Hexo+github博客搭建
 </h1>
  
 
@@ -81,7 +81,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> 字数统计:</span>
-            <span class="post-count">200</span>
+            <span class="post-count">718</span>
         </span>
     </span>
 
@@ -90,7 +90,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-book-open-line"></i>
             <span class="post-meta-item-text"> 阅读时长≈</span>
-            <span class="post-count">1 分钟</span>
+            <span class="post-count">3 分钟</span>
         </span>
     </span>
 </div>
@@ -139,13 +139,79 @@
 
 <p>部署后要在gitee服务页面上更新。</p>
 </li>
-<li><p>使用主题Ayer，说明文档地址 <a target="_blank" rel="noopener" href="https://shen-yu.gitee.io/2019/ayer/">https://shen-yu.gitee.io/2019/ayer/</a></p>
+<li><p>使用主题Ayer，说明文档地址 <a target="_blank" rel="noopener" href="https://ayer.886622.xyz/2019/ayer/">https://ayer.886622.xyz/2019/ayer/</a></p>
 </li>
 <li><p>需要说明的是插入图片的路径为 <code>[/文件夹/图片名，名字]</code> 方式。</p>
 </li>
 <li><p>创建新的文章</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new 文件名</span><br></pre></td></tr></table></figure></li>
 </ul>
+<hr>
+<h1 id="Hexo-部署博客步骤"><a href="#Hexo-部署博客步骤" class="headerlink" title="Hexo 部署博客步骤"></a>Hexo 部署博客步骤</h1><ol>
+<li><h2 id="写文章三种方式"><a href="#写文章三种方式" class="headerlink" title="写文章三种方式"></a>写文章三种方式</h2><ol>
+<li>使用<code>hexo new &lt;title&gt;</code><br>2. 使用编辑器写，保存Makedown文件到Hexo项目下source文件夹。<br>3. 语雀网页剪藏，导出Makedown文件。</li>
+</ol>
+</li>
+<li><h2 id="文章属性配置-Front-matter"><a href="#文章属性配置-Front-matter" class="headerlink" title="文章属性配置 Front-matter"></a>文章属性配置 Front-matter</h2><ol>
+<li>三组破折号中间写,title 必须写了才显示。</li>
+</ol>
+</li>
+</ol>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: Hello World</span><br><span class="line">date: 2013/7/13 20:46:25</span><br><span class="line">tags: 技术,输出</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+
+<ol start="3">
+<li><h2 id="标签插件与资源"><a href="#标签插件与资源" class="headerlink" title="标签插件与资源"></a>标签插件与资源</h2><p>​	用于文章中嵌入各种资源。</p>
+<ol>
+<li><h3 id="视频插入两种方式"><a href="#视频插入两种方式" class="headerlink" title="视频插入两种方式"></a>视频插入两种方式</h3><ol>
+<li><p>B站视频分享——嵌入代码。来使用框架<iframe>标签。</p>
+<p> HTML代码可以和Makedown语言兼容。</p>
+</li>
+<li><p>使用标签插件的语法。<br> <code>&#123;% iframe url [width] [height] %&#125;</code></p>
+</li>
+</ol>
+</li>
+<li><h2 id="音乐列表插入"><a href="#音乐列表插入" class="headerlink" title="音乐列表插入"></a>音乐列表插入</h2><ol>
+<li><code>&#123;% meting "384745728" "netease" "playlist" %&#125;</code>网易用户播放列表。</li>
+<li><code>&#123;% aplayer "江之南" "钟心" "http://music.163.com/song/media/outer/url?id=342451.mp3" %&#125;</code></li>
+<li>具体方法见 Ayer主题的使用说明。</li>
+</ol>
+</li>
+</ol>
+</li>
+<li><h2 id="本地预览以及推送到网站"><a href="#本地预览以及推送到网站" class="headerlink" title="本地预览以及推送到网站"></a>本地预览以及推送到网站</h2><ol>
+<li><code>hexo g</code>生成静态文件。</li>
+<li><code>hexo s</code>本地预览。</li>
+<li><code>hexo c &amp;&amp; hexo d</code>清理缓存且生成静态文件推送网站。</li>
+<li>输入网址查看，如果长时间不刷新，进github手动刷新。</li>
+</ol>
+</li>
+</ol>
+<h1 id="Hexo-命令集合说明"><a href="#Hexo-命令集合说明" class="headerlink" title="Hexo 命令集合说明"></a>Hexo 命令集合说明</h1><p>参考：Hexo文档-指令。<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/commands">https://hexo.io/zh-cn/docs/commands</a></p>
+<ol>
+<li><p><code>hexo init</code> 在目前的文件夹建立网站。</p>
+</li>
+<li><p><code>Hexo new</code> 新建文章。</p>
+<ol>
+<li><p>默认情况下，Hexo 会使用文章的标题来决定文章文件的路径。 对于独立页面来说，Hexo 会创建一个以标题为名字的目录，并在目录中放置一个 index.md 文件。</p>
+<p><code>heox new page about</code></p>
+<p>会创建about的文件夹，并放置index.md文件。 </p>
+</li>
+<li><p>你可以使用 –path 参数来覆盖上述行为、自行决定文件的目录：</p>
+<p><code>hexo new page --path about/me &quot;About me&quot;</code></p>
+<p>以上命令会创建一个 source&#x2F;about&#x2F;me.md 文件，同时 Front Matter 中的 title 为 “About me”。</p>
+</li>
+</ol>
+</li>
+<li><p><code>hexo g</code> 生成静态文件。generate命令。</p>
+</li>
+<li><p><code>hexo p</code>发表草稿。 publish。</p>
+</li>
+<li><p><code>hexo s</code>启动本地服务器。默认情况下，访问网址为：<code>http://localhost:4000/</code>。</p>
+</li>
+<li><p><code>hexo c</code>清除缓存文件 (db.json) 和已生成的静态文件 (public)。clean命令。</p>
+</li>
+</ol>
+<p>​	</p>
  
       <!-- reward -->
       

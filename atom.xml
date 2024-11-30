@@ -6,7 +6,7 @@
   <link href="https://stilnc.gitee.io/atom.xml" rel="self"/>
   
   <link href="https://stilnc.gitee.io/"/>
-  <updated>2024-02-06T14:07:21.734Z</updated>
+  <updated>2024-11-30T09:02:01.049Z</updated>
   <id>https://stilnc.gitee.io/</id>
   
   <author>
@@ -15,6 +15,50 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo主题-Ayer说明</title>
+    <link href="https://stilnc.gitee.io/2024/11/30/Ayer%E4%B8%AD%E6%96%87%E8%AF%B4%E6%98%8E%20_%20%E5%B2%9B/"/>
+    <id>https://stilnc.gitee.io/2024/11/30/Ayer%E4%B8%AD%E6%96%87%E8%AF%B4%E6%98%8E%20_%20%E5%B2%9B/</id>
+    <published>2024-11-30T08:32:33.563Z</published>
+    <updated>2024-11-30T09:02:01.049Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="技术" scheme="https://stilnc.gitee.io/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>心学</title>
+    <link href="https://stilnc.gitee.io/2024/11/30/%E5%BF%83%E5%AD%A6/"/>
+    <id>https://stilnc.gitee.io/2024/11/30/%E5%BF%83%E5%AD%A6/</id>
+    <published>2024-11-30T08:15:57.000Z</published>
+    <updated>2024-11-30T08:15:57.043Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Makedown 语法</title>
@@ -46,11 +90,11 @@
   </entry>
   
   <entry>
-    <title>Hexo+gitee博客搭建</title>
+    <title>Hexo+github博客搭建</title>
     <link href="https://stilnc.gitee.io/2024/02/05/Hexo%E7%BD%91%E9%A1%B5%E5%8F%91%E5%B8%83%E6%96%B9%E6%B3%95/"/>
     <id>https://stilnc.gitee.io/2024/02/05/Hexo%E7%BD%91%E9%A1%B5%E5%8F%91%E5%B8%83%E6%96%B9%E6%B3%95/</id>
     <published>2024-02-05T12:45:10.000Z</published>
-    <updated>2024-02-05T13:40:18.853Z</updated>
+    <updated>2024-11-30T11:17:50.877Z</updated>
     
     
       
